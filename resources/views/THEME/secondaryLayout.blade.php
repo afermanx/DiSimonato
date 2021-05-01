@@ -1,0 +1,5 @@
+@include('THEME.includes.header')
+@include('THEME.includes.postertwo')
+@include('THEME.includes.content')
+@include('THEME.includes.feedInsta')
+@include('THEME.includes.footer')
