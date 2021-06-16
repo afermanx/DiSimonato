@@ -1,5 +1,7 @@
 @extends('THEME.secondaryLayout')
 @section('title','DS - Ecommerce | Sobre')
+@section('title-postertwo','SOBRE')
+@section('menu-postertwo','Sobre')
 
 @section('content')
     <!-- Start About Page  -->

@@ -118,7 +118,7 @@
                     <li class="nav-item active"><a class="nav-link" href="{{route('Site.home')}}">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('Site.sobre')}}">Sobre</a></li>
                     <li class="dropdown megamenu-fw">
-                        <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
+                        <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Produtos</a>
                         <ul class="dropdown-menu megamenu-content" role="menu">
                             <li>
                                 <div class="row">
@@ -176,7 +176,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                        <a href="{{route('Site.shop')}}" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                         <ul class="dropdown-menu">
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
@@ -246,9 +246,9 @@
     <div class="container">
         <div class="input-group">
             <span class="input-group-addon"><i class="fa fa-search"></i></span>
-            <label>
+
                 <input type="text" class="form-control" placeholder="Search">
-            </label>
+
             <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
         </div>
     </div>

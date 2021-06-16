@@ -3,7 +3,7 @@
 <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
         <li class="text-left">
-            <img src="{{asset('images/banner-01.jpg')}}" alt="">
+            <img src="{{asset('ImgSlide/1.jpg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -15,7 +15,7 @@
             </div>
         </li>
         <li class="text-center">
-            <img src="images/banner-02.jpg" alt="">
+            <img src="{{asset('ImgSlide/2.jpeg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -27,7 +27,7 @@
             </div>
         </li>
         <li class="text-right">
-            <img src="images/banner-03.jpg" alt="">
+            <img src="{{asset('ImgSlide/3.jpg')}}" alt="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
