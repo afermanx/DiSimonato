@@ -1,8 +1,9 @@
 
 <!-- Start Slider -->
-<div id="slides-shop" class="cover-slides">
+<div id="slides-shop" class="cover-slides" style="height: 400px">
     <ul class="slides-container">
         <li class="text-left">
+
             <img src="{{asset('ImgSlide/1.jpg')}}" alt="">
             <div class="container">
                 <div class="row">

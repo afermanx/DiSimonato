@@ -74,21 +74,21 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="custom-select-box">
-                    <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-                        <option>¥ JPY</option>
-                        <option>$ USD</option>
-                        <option>€ EUR</option>
-                    </select>
-                </div>
+{{--                <div class="custom-select-box">--}}
+{{--                    <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">--}}
+{{--                        <option>¥ JPY</option>--}}
+{{--                        <option>$ USD</option>--}}
+{{--                        <option>€ EUR</option>--}}
+{{--                    </select>--}}
+{{--                </div>--}}
                 <div class="right-phone-box">
-                    <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                    <p>Ligar:<a href="#"> +11 900 800 100</a></p>
                 </div>
                 <div class="our-link">
                     <ul>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Our location</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="{{route('Admin.login')}}">Minha Conta</a></li>
+                        <li><a href="#">Localização</a></li>
+                        <li><a href="#">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                         aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="images/logo.png" class="logo" alt=""></a>
             </div>
             <!-- End Header Navigation -->
 
